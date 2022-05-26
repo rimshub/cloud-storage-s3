@@ -20,7 +20,7 @@ Sometimes systems don’t have enough local storage and other resources to store
 - Express.js
 - AWS SDK for JavaScript
 
-## Methodeleogy
+## Methodology
 
 First step is to create simple frontend application for users. Afterwards, setup basic server to create new endpoint that will allow clients to get secure URL. 
 Then create the S3 bucket and upload images directly to s3 bucket and then to retrieve them later rather than having to go through server to upload/download images. 
