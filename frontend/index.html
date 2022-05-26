@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>S3 Storage</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="first">
+            <h1>Cloud Storage with S3</h1>
+        <p>Objective is to store and retrieve images directly to/from Amazon S3 from user application.</p>
+        <p>Reduces the load on server.</p>
+        <a href="https://github.com/rimshub/cloud-storage-s3" class="btn btn-outline">Github Link</a>
+        </div>
+        <div class="sec">
+            <form action="" id="store-img">
+                <label for="input" class="btn btn-outline"><input type="file" id="input" accept="image/*">Choose File</label>
+                
+                <button class="btn btn-outline" type="submit">Upload Image</button>
+            </form>
+        </div>
+
+    </div>
+    <div id="show-images"><h1>Your uploaded images:</h1></div>
+    <!-- <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1140.0.min.js"></script> -->
+    <script type="module" src="main.js"></script>
+</body>
+</html>
