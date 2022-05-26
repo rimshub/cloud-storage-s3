@@ -1,4 +1,8 @@
-# cloud Storage with Amazon Simple Storage Service (Amazon S3)
+# Cloud Storage with Amazon Simple Storage Service (Amazon S3)
+
+### Screenshot
+
+![](./preview.png)
 
 ## Introduction
 Sometimes systems don’t have enough local storage and other resources to store huge amount of data. To solve this problem, one can avail such resources from cloud platforms i.e., AWS, Microsoft’s Azure. Instead of using costly external storage devices, remote servers or data centers in cloud computing can be utilized.  I undertake amazon S3 (Simple Storage Service) to solve this problem because it provides data storage with high security and stores data in form of objects over the cloud.
